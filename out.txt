@@ -1,0 +1,19 @@
+Resolving dependencies...
+Downloading packages...
+  matcher 0.12.18 (0.12.19 available)
+  meta 1.17.0 (1.18.2 available)
+  test_api 0.7.9 (0.7.11 available)
+  vector_math 2.2.0 (2.3.0 available)
+Got dependencies!
+4 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading C:/flutter_Dev/projects/chat_shell/test/widget_test.dart
+00:00 +0 -1: loading C:/flutter_Dev/projects/chat_shell/test/widget_test.dart [E]
+  Failed to load "C:/flutter_Dev/projects/chat_shell/test/widget_test.dart":
+  Compilation failed for testPath=C:/flutter_Dev/projects/chat_shell/test/widget_test.dart: lib/main.dart:50:20: Error: The argument type 'CardTheme' can't be assigned to the parameter type 'CardThemeData?'.
+   - 'CardTheme' is from 'package:flutter/src/material/card_theme.dart' ('../../sdk/flutter/packages/flutter/lib/src/material/card_theme.dart').
+   - 'CardThemeData' is from 'package:flutter/src/material/card_theme.dart' ('../../sdk/flutter/packages/flutter/lib/src/material/card_theme.dart').
+          cardTheme: CardTheme(
+                     ^
+  .
+00:00 +0 -1: Some tests failed.
