@@ -42,6 +42,39 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# Firebase config files
+# Firebase config files (optional - ignore if you don't want to commit them)
 android/app/google-services.json
 lib/firebase_options.dart
+
+# IDEs / Editors
+.vscode/
+
+# Local config / build caches
+android/.gradle/
+android/local.properties
+.gradle/
+.fvm/
+
+# Keystores and sensitive files
+android/app/*.jks
+android/app/*.keystore
+key.properties
+*.jks
+*.keystore
+*.env
+env.*
+
+# iOS / Xcode
+ios/Pods/
+ios/Runner.xcworkspace/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+DerivedData/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# Other generated files
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
